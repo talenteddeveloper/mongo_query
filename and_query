@@ -1,8 +1,16 @@
+//1 way
+
 "$and": [
-	{gender : "Male"},
+	{"gender" : "Male"},
 	{"married_status" : true}
 ]
 
+//2 way
+
+$and: [
+	{gender : "Male"},
+	{married_status : true}
+]
 
 
 "$and": [
