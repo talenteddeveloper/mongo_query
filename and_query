@@ -1,0 +1,12 @@
+"$and": [
+	{gender : "Male"},
+	{"married_status" : true}
+]
+
+
+
+"$and": [
+	{gender : "Male"},
+	{"married_status" : true},
+	{"first_name" : "Alec"}
+]
