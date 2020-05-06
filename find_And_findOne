@@ -1,0 +1,5 @@
+//for multiple data
+db.getCollection('user').find({"gender" : "Male"})
+
+//for single data
+db.getCollection('user').findOne({"gender" : "Male"})
