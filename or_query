@@ -1,0 +1,20 @@
+//1 way
+
+"$or" :[
+	{"married_status" : false},
+	{"gender" : "Female"}
+]
+
+//2 way
+
+$or :[
+	{"married_status" : false},
+	{"gender" : "Female"}
+]
+
+//3 way
+
+"$or" :[
+	{married_status : false},
+	{gender : "Female"}
+]
