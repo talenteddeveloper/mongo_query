@@ -1,0 +1,4 @@
+db.getCollection('school').find({gender: {$eq: "Male"}})
+
+
+{gender: {$eq: "Male"}}
