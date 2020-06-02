@@ -1,0 +1,10 @@
+//less than
+db.getCollection('school').find({class: {$lt: 6}})
+
+query: {class: {$lt: 6}}
+
+
+//less than equal
+db.getCollection('school').find({class: {$lte: 6}})
+
+query: {class: {$lte: 6}}
