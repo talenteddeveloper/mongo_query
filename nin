@@ -1,0 +1,1 @@
+db.getCollection('student').find({class : {$nin : [6,7] } })
