@@ -1,0 +1,3 @@
+db.getCollection('student').find({class : {$ne : 6 } })
+
+db.getCollection('student').find({class : {$ne : 6 }, "gender" : "Female" })
